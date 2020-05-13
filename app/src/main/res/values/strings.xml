@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lawson</string>
+    <string name="signup">Signup</string>
+    <string name="illustrasi">illustrasi</string>
+    <string name="get_started">Get Started</string>
+    <string name="Login">Login</string>
+    <string name="please_sign_in_to_continue">Please sign in to continue</string>
+    <string name="create_account">Create Account</string>
+    <string name="signin">Signin</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,775 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBarFullscreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Button" parent="TextAppearance.AppCompat.Button">
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+
+    </style>
+
+    <style name="Button.Start">
+        <item name="android:text">@string/get_started</item>
+    </style>
+
+    <style name="Button.Login">
+        <item name="android:text">@string/Login</item>
+    </style>
+
+    <style name="Button.SignUp">
+        <item name="android:text">Signup</item>
+    </style>
+
+    <style name="Button.Continue">
+        <item name="android:text">Continue</item>
+    </style>
+
+    <style name="Button.UploadFile">
+        <item name="android:text">Upload File</item>
+    </style>
+
+    <style name="Button.DownloadFile">
+        <item name="android:text">Download File</item>
+    </style>
+
+    <style name="Button.AksesUi">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A01 AKSES UI</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.RayaPramuka">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A02 PRAMUKA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.MeruyaSelatan">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A03 MERUYA SELATAN</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.BundaMulia">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A05 B.MULIA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.KM57">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A07 KM.57</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.RayaCipete">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A08 CIPETE</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.Mabes">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A09 MABES</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.Tangcity">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A10 TANGCITY</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.KM42">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A11 KM.42</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.KM39">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A12 KM.39</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.PERCETAKANNEGARA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A13 P.NEGARA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.SEKOLAHBUNDAMULIA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A14 S.B.MULIA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.SINGARAJA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A15 SINGARAJA"</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.DRSATRIO">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A16 DR. SATRIO</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.TAMANMALAKA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A17 MALAKA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.RUKOVIENNA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A18 VIENNA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.PERMATAKarawaci">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A19 KARAWACI</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.PAMULANG">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A20 PAMULANG</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.WALAHAR">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A21 B.WALAHAR</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.KWISATA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A22 K.WISATA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.SYAHDAN">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A23 SYAHDAN</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.EQUITYTOWER">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A25 EQUITY TOWER</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.SARINAH">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A26 SARINAH</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+    <style name="Button.MIDPLAZA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A27 MIDPALAZA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+    <style name="Button.GRAHAMANDIRI">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A28 G.MANDIRI</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+    <style name="Button.RAWABELONG">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A29 R.BELONG</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.SENTRTALSENAYAN">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A30 S.SENAYAN</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.BTPNTOWER">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A31 BTPN TOWER</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.mmki">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A32 MMKI</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.KM10">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A33 R.A KM10</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.STMANGGARAI">
+        <item name="android:textSize">10sp</item>
+        <item name="android:text">6A334 ST. MANGGARAI</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.STSUDIRMAN">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A35 ST.SUDIRMAN</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+    <style name="Button.STSENEN">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A36 ST. SENEN</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.UBMT">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A37 UBMT</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.KM43">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A38 KM43</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.GRAHATAMIYA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A39 G.TAMIYA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.RUKOVERSAILLES">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A40 VERSAILLES</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.KM6B">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A41 KM 6</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.PGC">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A42 PGC</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.GRAHASUCOFINDO">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A43 SUCOFINDO</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.KM72">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A44 KM72</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.MRTFATMAWATI">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A45 FATMAWATI</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.MRTSENAYAN">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A46 MRT SENAYAN</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.SCKPERCETAKAN">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A47 SCK PERCETAKAN</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.MENARAASTRA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A48 M.ASTRA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.SYAHDANDUA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A49 SYAHDAN 2</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.UIN">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A50 UIN</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+        <style name="Button.STGAMBIR">
+            <item name="android:textSize">11sp</item>
+            <item name="android:text">6A51 ST.GAMBIR</item>
+            <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+            <item name="android:fontFamily">@font/montserrat_bold</item>
+            <item name="textAllCaps">false</item>
+            <item name="android:textColor">@color/colorWhite</item>
+        </style>
+
+    <style name="Button.KEBONKACANG">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A52 KEB.KACANG</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.CEMPAKAMAS">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A53 CEMPAKA MAS</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.AEROPOLIS">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A54 AEROPOLIS</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.RSAB">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A55 RSAB</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.APTBELLEZA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A56 APT BELLEZA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.MGOLD">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A57 M GOLD</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.GRAHASURVEYOR">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A58 G.SURVEYOR</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.KTBMITSUBISHI">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A59 KTB MITSUBISHI</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.MEDITERANIA1">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A60 MEDITERANIA 1</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.MENARAMULYA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A61 MENARA MULIA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.MANGGA2SQUARE">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A62 MANGGA DUA SQUARE</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.ITCDEPOK">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A63 ITC DEPOK</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.METROPOLITANMALL">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A64 METROPOLITANMALL</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.CBDPLUIT">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A65 METROPOLITANMALL</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.SUNTERKIRANA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A66 SUNTER KIRANA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.ABDULLAHSAFEI">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A67 ABDULLAH SAFEI</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.KEMANGRAYA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A68 KEMANG RAYA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.LANDMARKPLUIT">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A69 LANDMARKPLUIT</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.THAMRINCITY">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A70 THAMRIN CITY</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.STGONDANGDIA">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A71 ST.GONDANGDIA</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.KELAPAGADINGBLVRD">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A72 KELAPA GADING BLVRD</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.MENARADANAMON">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A73 MENARA DANAMON</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.PGC2">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A74 PGC 2</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.BANDARATERMINAL2E">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A75 BANDARA TERMINAL 2E</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.JBTOWER">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A76 JB TOWER</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Button.TANJUNGDUREN">
+        <item name="android:textSize">11sp</item>
+        <item name="android:text">6A77 TANJUNG DUREN</item>
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_blue</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+
+
+    <style name="TextView" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="TextView.Large">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/shape_rectangle_rounded_10_grey</item>
+        <item name="android:padding">12dp</item>
+
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="EditText.Username">
+        <item name="android:drawableStart">@drawable/ic_user</item>
+        <item name="android:hint">Username</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="EditText.Email">
+        <item name="android:drawableStart">@drawable/ic_email_black_24dp</item>
+        <item name="android:hint">Email</item>
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+
+    <style name="EditText.Password">
+        <item name="android:drawableStart">@drawable/ic_lock</item>
+        <item name="android:hint">Password</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="EditText.phone">
+        <item name="android:drawableStart">@drawable/ic_phone</item>
+        <item name="android:hint">Username</item>
+        <item name="android:inputType">text</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <string name="NamaToko">Nama Toko</string>
+    <string name="todo">TODO</string>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/graduate</item>
+        <item>@font/montserrat</item>
+        <item>@font/montserrat_bold</item>
+        <item>@font/oswald_light</item>
+        <item>@font/righteous</item>
+        <item>@font/salsa</item>
+        <item>@font/spinnaker</item>
+        <item>@font/stoke_light</item>
+        <item>@font/yeseva_one</item>
+    </array>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/activity_modul"
+    android:background="@drawable/shape_rectangle_rounded_10_grey"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DownModel">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="43dp"
+        android:background="@drawable/shape_rectangle_rounded_10_white"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/logolws"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_lws"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/topjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/logolws"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Modul"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/belowjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topjudul"
+            android:layout_toRightOf="@+id/logolws"
+            android:fontFamily="@font/montserrat"
+            android:text="Silhkan Cari Filenya"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+    <TextView
+        android:id="@+id/textViewUserEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextFileName"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:text="Silahkan Upload File PDF"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:layout_centerHorizontal="true"
+        android:id="@+id/editTextFileName"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:hint="Masukan Nama File"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        style="@style/Button.UploadFile"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:id="@+id/buttonUploadFile"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editTextFileName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tidak Ada File Terpilih"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/textViewUploads"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="View Uploads"
+            android:textAlignment="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dewanda.helloword">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <meta-data android:name="preloaded_fonts" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".JadwalITActivity"></activity>
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+
+        <activity android:name=".YudiActivity" />
+        <activity android:name=".SoimActivity" />
+        <activity android:name=".HeriActivity" />
+        <activity android:name=".BimoActivity" />
+        <activity android:name=".BambangActivity" />
+        <activity android:name=".UploadImageActivity" />
+        <activity android:name=".ViewUploadsActivity" />
+        <activity android:name=".FirebaseUpload" />
+        <activity android:name=".AepActivity" />
+        <activity android:name=".ContactItActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".TelephoneActivity" />
+        <activity android:name=".DownModel" />
+        <activity android:name=".StoreContactActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".CountryData" />
+        <activity android:name=".Store_Location_Activity" />
+        <activity android:name=".PhoneContactActivity" />
+        <activity android:name=".StoreActivity" />
+        <activity android:name=".OfficeActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".SigninActivity" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".DetailActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="behind" />
+    </application>
+
+
+
+
+</manifest>

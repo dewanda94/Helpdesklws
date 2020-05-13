@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "909001232701",
+    "firebase_url": "https://manualguidelws.firebaseio.com",
+    "project_id": "manualguidelws",
+    "storage_bucket": "manualguidelws.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909001232701:android:42e37aeec02d62ab15f554",
+        "android_client_info": {
+          "package_name": "com.dewanda.helloword"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909001232701-32js1eqqr6fas8egb0d0pfjutg01hr63.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dewanda.helloword",
+            "certificate_hash": "835888dc60c40a288270f667a29d202c5b34b98e"
+          }
+        },
+        {
+          "client_id": "909001232701-56upof9qk7nc8al5tdtncaatsd0g76n9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDom6Z_nNcT4reB3WfY2fXL9bGjOoBdIFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909001232701-56upof9qk7nc8al5tdtncaatsd0g76n9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

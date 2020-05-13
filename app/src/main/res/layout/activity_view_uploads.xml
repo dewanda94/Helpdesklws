@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/shape_rectangle_rounded_10_grey"
+    android:id="@+id/activity_view_uploads"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewUploadActivity">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rectangle_rounded_10_white"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/logolws"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_lws"
+            android:fontFamily="@font/montserrat_bold"
+            android:gravity="center"
+            android:textColor="@color/colorWhite" />
+
+        <TextView
+            android:id="@+id/topjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/logolws"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="Manual Guide"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/belowjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/topjudul"
+            android:layout_toRightOf="@+id/logolws"
+            android:fontFamily="@font/montserrat"
+            android:text="Silahkan Di Download Filenya"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape_rectangle_rounded_10_grey"
+        android:scrollbarSize="5sp" />
+
+</RelativeLayout>
